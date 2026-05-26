@@ -1,0 +1,348 @@
+* {
+		padding: 0;
+		margin: 0;
+		box-sizing: border-box;
+	}
+
+/*NAVBAR START*/
+	#navbar {
+		margin-bottom: 3rem;
+		width: 1280;
+		height: 74.38999938964844;
+		border-bottom-width: 4px;
+		justify-content: space-between;
+		padding-top: 16px;
+		padding-right: 48px;
+		padding-bottom: 16px;
+		padding-left: 48px;
+		angle: 0 deg;
+		opacity: 1;
+		background: #F9F9F9;
+		border-bottom: 4px solid #1B1B1B;
+		box-shadow: 8px 8px 0px 0px #1B1B1B;
+	}
+	.navbar-brand {
+		font-family: Anton;
+		font-weight: 900 !important;
+		font-style: Regular !important;
+		font-size: 32px !important;
+		leading-trim: NONE;
+		line-height: 38.4px !important;
+		letter-spacing: 0px;
+		vertical-align: middle;
+		color: #B7102A !important;
+	}
+
+	#shop {
+		font-family: Anton;
+		font-weight: 400;
+		font-style: Regular;
+		font-size: 24px;
+		leading-trim: NONE;
+		line-height: 28.8px;
+		letter-spacing: -1.2px;
+		vertical-align: middle;
+		text-transform: uppercase;
+		text-decoration: underline;
+		text-decoration-style: solid;
+		text-decoration-offset: 0%;
+		text-decoration-thickness: 0%;
+		color: #FFD167;
+	}
+
+	#auctions {
+		font-family: Anton;
+		font-weight: 400;
+		font-style: Regular;
+		font-size: 24px;
+		leading-trim: NONE;
+		line-height: 28.8px;
+		letter-spacing: -1.2px;
+		vertical-align: middle;
+		text-transform: uppercase;
+		color: #1B1B1B;
+	}
+
+	#pull {
+		font-family: Anton;
+		font-weight: 400;
+		font-style: Regular;
+		font-size: 24px;
+		leading-trim: NONE;
+		line-height: 28.8px;
+		letter-spacing: -1.2px;
+		vertical-align: middle;
+		text-transform: uppercase;
+		color: #1B1B1B;
+	}
+
+	#events {
+		font-family: Anton;
+		font-weight: 400;
+		font-style: Regular;
+		font-size: 24px;
+		leading-trim: NONE;
+		line-height: 28.8px;
+		letter-spacing: -1.2px;
+		vertical-align: middle;
+		text-transform: uppercase;
+		color: #1B1B1B;
+	}
+
+	#about {
+		font-family: Anton;
+		font-weight: 400;
+		font-style: Regular;
+		font-size: 24px;
+		leading-trim: NONE;
+		line-height: 28.8px;
+		letter-spacing: -1.2px;
+		vertical-align: middle;
+		text-transform: uppercase;
+		color: #1B1B1B;
+	}
+
+	#search {
+		width: 238;
+		height: 36;
+		padding-top: 5px;
+		padding-right: 16px;
+		padding-bottom: 6px;
+		padding-left: 16px;
+		angle: 0 deg;
+		opacity: 1;
+		border-width: 2px;
+		color: 2px solid #1B1B1B;
+	}
+/*NAVBAR END*/
+
+/*HERO SECTION START*/
+	#hero {
+	position: relative;
+	margin: 24px 48px;
+	height: 480px;
+	background-image: url('https://images7.alphacoders.com/990/thumb-1920-990523.jpg');
+	background-size: 100%;
+	background-position: center 35%;
+	background-repeat: no-repeat;
+	background-color: #F5A623;
+	border: 4px solid #1B1B1B;
+	box-shadow: 8px 8px 0px 0px #1B1B1B;
+	display: flex;
+	align-items: center;
+	}
+ 
+	#hero::before {
+		content: '';
+		position: absolute;
+		inset: 0;
+		background: linear-gradient(to right, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0.45) 38%, rgba(0,0,0,0.0) 65%);
+	}
+	 
+	#hero-content {
+		position: relative;
+		z-index: 1;
+		padding: 0 0 0 48px;
+		max-width: 440px;
+	}
+	 
+	#hero-label {
+		font-family: 'Plus Jakarta Sans', sans-serif;
+		font-weight: 700;
+		font-size: 12px;
+		letter-spacing: 3px;
+		text-transform: uppercase;
+		color: #FFD167;
+		margin-bottom: 16px;
+	}
+	 
+	#hero-heading {
+		font-family: Anton, sans-serif;
+		font-weight: 400;
+		font-size: 60px;
+		line-height: 1.0;
+		letter-spacing: -1px;
+		text-transform: uppercase;
+		color: #FFFFFF;
+		margin-bottom: 20px;
+	}
+	 
+	#hero-subtext {
+		font-family: 'Plus Jakarta Sans', sans-serif;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 1.65;
+		color: rgba(255, 255, 255, 0.85);
+		margin-bottom: 36px;
+		max-width: 340px;
+	}
+	 
+	#hero-btn {
+		display: inline-block;
+		font-family: Anton, sans-serif;
+		font-size: 16px;
+		letter-spacing: 1px;
+		text-transform: uppercase;
+		text-decoration: none;
+		color: #1B1B1B;
+		background: #FFD167;
+		border: 3px solid #1B1B1B;
+		box-shadow: 5px 5px 0px 0px #1B1B1B;
+		padding: 12px 32px;
+		transition: box-shadow 0.1s ease, transform 0.1s ease;
+	}
+	 
+	#hero-btn:hover {
+		box-shadow: 2px 2px 0px 0px #1B1B1B;
+		transform: translate(3px, 3px);
+		color: #1B1B1B;
+	}
+/*HERO SECTION END*/
+
+/*PRODUCT SECTION START*/
+	#product-section {
+		margin: 40px 48px;
+	}
+	 
+	#product {
+		font-family: Anton, sans-serif;
+		font-weight: 400;
+		font-size: 40px;
+		line-height: 40px;
+		letter-spacing: 0px;
+		text-transform: uppercase;
+		color: #1B1B1B;
+		margin-bottom: 24px;
+	}
+	 
+	#product-grid {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		gap: 24px;
+	}
+	 
+	.comic-card {
+		display: flex;
+		flex-direction: row;
+		border: 3px solid #1B1B1B;
+		box-shadow: 6px 6px 0px 0px #1B1B1B;
+		background: #FFFFFF;
+		overflow: hidden;
+	}
+	 
+	.comic-card-img {
+		width: 160px;
+		flex-shrink: 0;
+	}
+	 
+	.comic-card-img img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		display: block;
+	}
+	 
+	.comic-card-body {
+		display: flex;
+		flex-direction: column;
+		padding: 16px;
+		flex: 1;
+	}
+	 
+	.comic-card-top {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		margin-bottom: 12px;
+	}
+	 
+	.comic-badge {
+		font-family: 'Plus Jakarta Sans', sans-serif;
+		font-weight: 700;
+		font-size: 11px;
+		letter-spacing: 1px;
+		text-transform: uppercase;
+		padding: 4px 10px;
+		color: #FFFFFF;
+	}
+	 
+	.badge-hot {
+		background: #B7102A;
+	}
+	 
+	.badge-limited {
+		background: #0F7B9E;
+	}
+	 
+	.badge-new {
+		background: #1B7A3E;
+	}
+	 
+	.comic-price {
+		font-family: 'Plus Jakarta Sans', sans-serif;
+		font-weight: 700;
+		font-size: 16px;
+		color: #B7102A;
+	}
+	 
+
+	.comic-title {
+		font-family: Anton, sans-serif;
+		font-weight: 400;
+		font-size: 22px;
+		letter-spacing: 0px;
+		text-transform: uppercase;
+		color: #1B1B1B;
+		margin-bottom: 10px;
+		line-height: 1.1;
+	}
+	 
+	.comic-desc {
+		font-family: 'Plus Jakarta Sans', sans-serif;
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 1.55;
+		color: #555555;
+		margin-bottom: 20px;
+		flex: 1;
+	}
+	 
+	.comic-btn {
+		width: 100%;
+		font-family: Anton, sans-serif;
+		font-size: 14px;
+		letter-spacing: 1px;
+		text-transform: uppercase;
+		color: #FFFFFF;
+		background: #1B1B1B;
+		border: none;
+		padding: 12px 0;
+		cursor: pointer;
+		transition: background 0.15s ease;
+	}
+	 
+	.comic-btn:hover {
+		background: #B7102A;
+	}
+/*PRODUCT SECTION END*/
+
+/*ALL PRODUCT SECTION START*/
+	
+	#product2 {
+		margin-left: 1em;
+		margin-top: 2em;
+		margin-bottom: 1em;
+		font-family: Anton;
+		font-weight: 400;
+		font-style: Regular;
+		font-size: 40px;
+		leading-trim: NONE;
+		line-height: 48px;
+		letter-spacing: 0px;
+		vertical-align: middle;
+		text-transform: uppercase;
+		color: #1B1B1B;
+	}
+
+/*ALL PRODUCT SECTION END*/
+
