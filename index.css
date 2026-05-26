@@ -201,11 +201,11 @@
 
 /*PRODUCT SECTION START*/
 	.card {
-	    margin: 40px 48px;
-	    border: none !important;
-	    box-shadow: none !important;
-	    border-radius: 0;
-	    background: transparent !important;
+		margin: 40px 48px;
+		border: none !important;
+		box-shadow: none !important;
+		border-radius: 0;
+		background: transparent !important;
 	}
 	 
 	#product {
@@ -288,7 +288,6 @@
 		font-size: 16px;
 		color: #B7102A;
 	}
-	 
 
 	.comic-title {
 		font-family: Anton, sans-serif;
@@ -334,7 +333,7 @@
 	#footer {
 		margin-top: 60px;
 	}
- 
+
 	#footer-newsletter {
 		margin-left: 3em;
 		margin-right: 3em;
@@ -345,9 +344,8 @@
 		box-shadow: 8px 8px 0px 0px #1B1B1B;
 		padding: 48px 40px;
 		text-align: center;
-		margin-bottom: 0;
 	}
- 
+
 	#newsletter-heading {
 		font-family: Anton, sans-serif;
 		font-size: 52px;
@@ -357,7 +355,7 @@
 		margin-bottom: 12px;
 		letter-spacing: -1px;
 	}
- 
+
 	#newsletter-subtext {
 		font-family: 'Plus Jakarta Sans', sans-serif;
 		font-weight: 700;
@@ -368,7 +366,7 @@
 		opacity: 0.65;
 		margin-bottom: 28px;
 	}
- 
+
 	#newsletter-form {
 		display: flex;
 		justify-content: center;
@@ -376,7 +374,7 @@
 		max-width: 560px;
 		margin: 0 auto;
 	}
- 
+
 	#newsletter-input {
 		flex: 1;
 		font-family: 'Plus Jakarta Sans', sans-serif;
@@ -388,14 +386,14 @@
 		outline: none;
 		color: #1B1B1B;
 	}
- 
+
 	#newsletter-input::placeholder {
 		color: #999;
 		text-transform: uppercase;
 		letter-spacing: 1px;
 		font-size: 13px;
 	}
- 
+
 	#newsletter-btn {
 		font-family: Anton, sans-serif;
 		font-size: 15px;
@@ -409,11 +407,11 @@
 		transition: background 0.15s ease;
 		white-space: nowrap;
 	}
- 
+
 	#newsletter-btn:hover {
 		background: #8f0d21;
 	}
- 
+
 	#footer-bottom {
 		background: #1B1B1B;
 		margin: 0;
@@ -423,13 +421,13 @@
 		justify-content: space-between;
 		border-top: 4px solid #B7102A;
 	}
- 
+
 	#footer-brand {
 		display: flex;
 		flex-direction: column;
 		gap: 8px;
 	}
- 
+
 	#footer-logo {
 		font-family: Anton, sans-serif;
 		font-size: 28px;
@@ -438,7 +436,7 @@
 		text-decoration: none;
 		line-height: 1;
 	}
- 
+
 	#footer-copy {
 		font-family: 'Plus Jakarta Sans', sans-serif;
 		font-size: 11px;
@@ -448,16 +446,16 @@
 		max-width: 220px;
 		line-height: 1.6;
 	}
- 
+
 	#footer-links {
-	    display: flex;
-	    flex-wrap: wrap;
-	    justify-content: flex-end;
-	    gap: 10px 32px;
-	    max-width: 500px;
-	    text-align: right;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: flex-end;
+		gap: 10px 32px;
+		max-width: 500px;
+		text-align: right;
 	}
- 
+
 	.footer-link {
 		font-family: Anton, sans-serif;
 		font-size: 14px;
@@ -467,8 +465,195 @@
 		text-decoration: none;
 		transition: color 0.15s ease;
 	}
- 
+
 	.footer-link:hover {
 		color: #FFD167;
 	}
 /*FOOTER END*/
+
+@media (max-width: 992px) {
+
+	#navbar {
+		padding: 12px 24px;
+	}
+
+	#hero {
+		margin: 16px 24px;
+		height: 380px;
+		background-size: cover;
+	}
+
+	#hero-heading {
+		font-size: 44px;
+	}
+
+	#hero-content {
+		padding: 0 0 0 28px;
+		max-width: 360px;
+	}
+
+	.card {
+		margin: 32px 24px;
+	}
+
+	#product-grid {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	#footer-newsletter {
+		margin-left: 24px;
+		margin-right: 24px;
+	}
+
+	#newsletter-heading {
+		font-size: 40px;
+	}
+
+	#footer-bottom {
+		padding: 24px 24px;
+	}
+}
+
+@media (max-width: 576px) {
+
+	#navbar {
+		padding: 10px 16px;
+		margin-bottom: 1rem;
+	}
+
+	.navbar-brand {
+		font-size: 22px !important;
+	}
+
+	#hero {
+		margin: 12px 16px;
+		height: auto;
+		min-height: 320px;
+		padding: 40px 0;
+		background-size: cover;
+		background-position: center center;
+	}
+
+	#hero-content {
+		padding: 0 20px;
+		max-width: 100%;
+	}
+
+	#hero-heading {
+		font-size: 36px;
+	}
+
+	#hero-subtext {
+		font-size: 14px;
+		margin-bottom: 24px;
+	}
+
+	#hero-btn {
+		font-size: 14px;
+		padding: 10px 24px;
+	}
+
+	.card {
+		margin: 24px 16px;
+	}
+
+	#product {
+		font-size: 28px;
+		line-height: 1;
+		margin-bottom: 16px;
+	}
+
+	#product-grid {
+		grid-template-columns: 1fr;
+		gap: 16px;
+	}
+
+	.comic-card {
+		flex-direction: row;
+		height: 160px;
+	}
+
+	.comic-card-img {
+		width: 120px;
+	}
+
+	.comic-card-body {
+		padding: 12px;
+	}
+
+	.comic-title {
+		font-size: 17px;
+	}
+
+	.comic-desc {
+		font-size: 12px;
+		line-height: 1.4;
+		margin-bottom: 10px;
+		display: -webkit-box;
+		-webkit-line-clamp: 3;
+		-webkit-box-orient: vertical;
+		overflow: hidden;
+	}
+
+	.comic-btn {
+		padding: 8px 0;
+		font-size: 12px;
+	}
+
+	#footer-newsletter {
+		margin-left: 16px;
+		margin-right: 16px;
+		padding: 32px 20px;
+		margin-bottom: 32px !important;
+	}
+
+	#newsletter-heading {
+		font-size: 30px;
+		letter-spacing: 0px;
+	}
+
+	#newsletter-subtext {
+		font-size: 10px;
+		letter-spacing: 1px;
+	}
+
+	#newsletter-form {
+		flex-direction: column;
+		gap: 0;
+	}
+
+	#newsletter-input {
+		border-right: 3px solid #1B1B1B;
+		border-bottom: none;
+		padding: 12px 16px;
+	}
+
+	#newsletter-btn {
+		padding: 12px 20px;
+		font-size: 14px;
+	}
+
+	#footer-bottom {
+		flex-direction: column;
+		gap: 24px;
+		padding: 24px 16px;
+	}
+
+	#footer-logo {
+		font-size: 22px;
+	}
+
+	#footer-copy {
+		font-size: 10px;
+	}
+
+	#footer-links {
+		justify-content: flex-start;
+		max-width: 100%;
+		gap: 8px 20px;
+	}
+
+	.footer-link {
+		font-size: 12px;
+	}
+}
